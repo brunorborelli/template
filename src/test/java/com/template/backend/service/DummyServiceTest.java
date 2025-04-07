@@ -24,8 +24,8 @@ public class DummyServiceTest {
 
 
     /**
-     * Tests the method findClients() of the ClienteService class.
-     * Verifies that the returned list of ClienteResponseDTO is not null.
+     * Tests the method findDummies() of the DummyService class.
+     * Verifies that the returned list of DummyResponseDTO is not null.
      */
     @Test
     void shouldReturnDummies(){

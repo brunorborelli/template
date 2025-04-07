@@ -44,5 +44,6 @@ Instructions:
 # Testing the Application
 You can test the main features of the application via:
   * Swagger: **http://localhost:8080/swagger-ui/index.html** where you can test all application endpoints.
+  * H2-BD: **http://localhost:8080/h2-console/** where you can acess you DB if you have H2 console activated on dev properties
 
 **Note** The application is associated with an H2 in-memory database, so there is no need to configure an external database. The creation of tables and database population is also implemented in the application using Flyway.
