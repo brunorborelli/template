@@ -13,6 +13,7 @@ This is a template project with basic configurations to kickstart a backend proj
 *   Lombok: Integrated for reducing boilerplate code by automatically generating getters, setters, constructors, and other utility methods.
 *   Dockerfile: Pre-configured for containerizing the application and simplifying deployment with Docker.
 *   Property Management: Clean separation of development and production properties for better configuration management.
+*   Spring Security + JWT: Pre-configured authentication and authorization using JSON Web Tokens (JWT), enabling secure access control with stateless sessions
 
 This template is designed to help developers quickly set up a robust backend application with standardized configurations and best practices, making it easy to scale and maintain.
 
