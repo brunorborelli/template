@@ -5,7 +5,7 @@ import com.template.backend.model.auth.dto.AuthResponse;
 import com.template.backend.model.enums.Role;
 import com.template.backend.model.user.User;
 import com.template.backend.repository.UserRepository;
-import com.template.backend.service.security.JwtService;
+import com.template.backend.config.security.JwtService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;

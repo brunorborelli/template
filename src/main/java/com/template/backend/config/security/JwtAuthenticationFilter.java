@@ -1,7 +1,5 @@
-package com.template.backend.security;
+package com.template.backend.config.security;
 
-import com.template.backend.service.security.JwtService;
-import com.template.backend.service.security.UserDetailsServiceImpl;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;

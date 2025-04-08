@@ -1,7 +1,5 @@
-package com.template.backend.config;
+package com.template.backend.config.security;
 
-import com.template.backend.security.JwtAuthenticationFilter;
-import com.template.backend.service.security.UserDetailsServiceImpl;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

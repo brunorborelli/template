@@ -1,4 +1,4 @@
-package com.template.backend.service.security;
+package com.template.backend.config.security;
 
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;

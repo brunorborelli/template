@@ -1,4 +1,4 @@
-package com.template.backend.service.security;
+package com.template.backend.config.security;
 
 import com.template.backend.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
