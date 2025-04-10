@@ -27,7 +27,7 @@ public class SecurityConfig {
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         return http
                 .csrf().disable()
-                .authorizeRequests() // <- Aqui muda
+                .authorizeRequests()
                 .antMatchers(
                         "/auth/**",
                         "/v3/api-docs/**",
@@ -45,7 +45,7 @@ public class SecurityConfig {
                 .and()
                 .authenticationProvider(authenticationProvider())
                 .addFilterBefore(jwtAuthFilter, UsernamePasswordAuthenticationFilter.class)
-                .headers().frameOptions().disable() // <- libera o iframe do H2
+                .headers().frameOptions().disable() // H2 iframe
                 .and()
                 .build();
     }
