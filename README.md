@@ -46,5 +46,6 @@ Instructions:
 You can test the main features of the application via:
   * Swagger: **http://localhost:8080/swagger-ui/index.html** where you can test all application endpoints.
   * H2-BD: **http://localhost:8080/h2-console/** where you can acess you DB if you have H2 console activated on dev properties
+  * Spring Sec.: Dummy endpoints are protected by Spring Security. To test them, you need to register via /auth/register, log in through /auth/login, and use the received token for authentication. 
 
 **Note** The application is associated with an H2 in-memory database, so there is no need to configure an external database. The creation of tables and database population is also implemented in the application using Flyway.
